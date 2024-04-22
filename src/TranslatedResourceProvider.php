@@ -14,7 +14,7 @@ class TranslatedResourceProvider extends PackageServiceProvider
 
     public function configurePackage(Package $package): void
     {
-        $package->name('translated-resource')
+        $package->name('filament-translated-resource')
             ->hasInstallCommand(function(\Spatie\LaravelPackageTools\Commands\InstallCommand  $command){
                 $command->copyAndRegisterServiceProviderInApp();
               })
