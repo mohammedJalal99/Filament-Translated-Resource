@@ -7,6 +7,16 @@
             "MohammedHamad\\TranslatedResource\\": "src/"
         }
     },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Barryvdh\\Debugbar\\ServiceProvider"
+        ],
+        "aliases": {
+            "Debugbar": "Barryvdh\\Debugbar\\Facade"
+        }
+    }
+},
     "authors": [
         {
             "name": "Mohammed Hamad",
