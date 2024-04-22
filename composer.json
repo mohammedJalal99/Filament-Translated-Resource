@@ -10,11 +10,8 @@
     "extra": {
     "laravel": {
         "providers": [
-            "Barryvdh\\Debugbar\\ServiceProvider"
+            "MohammedHamad\\TranslatedResource\\TranslatedResourceProvider::class"
         ],
-        "aliases": {
-            "Debugbar": "Barryvdh\\Debugbar\\Facade"
-        }
     }
 },
     "authors": [
