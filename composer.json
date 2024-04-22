@@ -1,0 +1,20 @@
+{
+    "name": "mohammed_hamad/translated_resource",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MohammedHamad\\TranslatedResource\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Hamad",
+            "email": "hamaj4096@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filament/support": "^3.2"
+    }
+}

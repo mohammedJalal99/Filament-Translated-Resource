@@ -1,0 +1,12 @@
+<?php
+
+namespace {{ namespace }};
+
+{{ clusterImport }}use App\Page;
+
+class {{ class }} extends Page
+{
+    protected static ?string $pageName = '{{ class }}';
+
+    protected static string $view = '{{ view }}';{{ clusterAssignment }}
+}
