@@ -11,7 +11,7 @@
     "laravel": {
         "providers": [
             "MohammedHamad\\TranslatedResource\\TranslatedResourceProvider::class"
-        ],
+        ]
     }
 },
     "authors": [
