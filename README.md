@@ -8,5 +8,9 @@ composer require mohammed_hamad/translated_resource
 - Configure
 Copy this code to config/app.php providers.
 ```bash
-
+\MohammedHamad\TranslatedResource\TranslatedResourceProvider::class
+```
+## using
+```bash
+php artisan make:translated-resource ModelName --generate
 ```
